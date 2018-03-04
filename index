@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>code_file</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav>
+  <div id="nav">
+  <ul class="topnav">
+    <li><a href="#top">About</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  </div>
+</nav>
+  
+  <br>
+<div id ="main-text">
+<h1>Beff Lipripper</h1>
+<br>
+<br>
+<p>Full-stack developer, specialising in Java. Currently in my second year of a Computing &amp; I.T. degree with the Open University.</p>
+<p>I am looking for a Junior Software Developer or Junior DevOps role.</p>
+
+<p>My favourite video games are: Stardew Valley, Don't Starve, and Civilization V.</p>
+
+<p>My favourite comics are: Giant Days, Lumberjanes, Hell Cat and Harley Quinn.</p>
+
+<h3>Technologies:</h3>
+<ul>
+    <li>Java</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+<br>
+  <h1 id="portfolio">Portfolio</h1>
+  <br>
+  <img id="bedfords" src="http://res.cloudinary.com/befflipripper/image/upload/v1520119437/bedfords.jpg" alt="" title=""><figcaption>This was my first commisioned project.</figcaption>
+  
+  <br> <br>
+  <h1 id="contact">Contact</h1>
+
+  
+   <a href="https://twitter.com/befflipripper" class ="fa fa-twitter"></a>
+   <a href="https://www.freecodecamp.org/befflipripper" class ="fa fa-free-code-camp"></a>
+   <a href="https://codepen.io/befflipripper/" class ="fa fa-codepen"></a>
+   <a href="https://github.com/befflipripper" class ="fa fa-github"></a>
+<br>
+  </div>
+</body>
+</html>
