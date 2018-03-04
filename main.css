@@ -1,15 +1,30 @@
 body {
-  background-color: #4abdac;
-  color: #EFDDF3;
+  background-color: #48CFAD;
+  color: #FFF;
 }
 
 #main-text {
     text-align: center;
 }
 
+p {
+    font-size: 1.3em;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+}
 
 #bedfords {
   width: 25%;
+}
+
+figcaption {
+    font-size: 1.1em;
+    font-style: italic;
 }
 
 ul.topnav {
@@ -17,14 +32,14 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f44336;
+    background-color: #967ADC;
 }
 
 ul.topnav li {float: left;}
 
 ul.topnav li a {
     display: block;
-    color: #EFDDF3;
+    color: #FFF;
     font-size: 1.2em;
     text-align: center;
     padding: 0.4em 1em;
@@ -32,8 +47,8 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover:not(.active) {
-  background-color: #4abdac;
-  color: #f44336;
+  background-color: #48CFAD;
+  color: #967ADC;
 }
 
 ul.topnav li.right {float: right;}
@@ -43,27 +58,16 @@ ul.topnav li.right {float: right;}
     ul.topnav li {float: none;}
 }
 
-.fa {
+
+
+.social {
+  color: #967ADC;
   padding: 1em;
-  font-size: 10em;
-/*   width: 30px; */
+  font-size: 2em;
+/*   width: 2px; */
   text-align: center;
   text-decoration: none;
-  margin: 1.5em 2em;
+  margin: 2em 1em;
 }
 
-.fa-twitter {
-  color: #EFDDF3;
-}
 
-.fa-free-code-camp {
-    color: #EFDDF3;
-}
-
-.fa-codepen {
-    color: #EFDDF3;
-}
-
-.fa-github {
-    color: #EFDDF3;
-}
