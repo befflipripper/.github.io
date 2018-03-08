@@ -23,6 +23,7 @@ border-radius: 50%;
     font-size: 1.3em;
 }
 
+/*
 #bedfords {
   width: 25%;
 }
@@ -31,10 +32,21 @@ figcaption {
     font-size: 1.1em;
     font-style: italic;
 }
+*/
+
+#tech {
+  background-color: #48BFAD;
+  width: 50%;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
 
 ul.topnav {
     list-style-type: none;
-    margin: 0;
+    margin-top: -1.6em;
     padding: 0;
     overflow: hidden;
     background-color: #967ADC;
@@ -75,4 +87,49 @@ ul.topnav li.right {float: right;}
   margin: 2em 1em;
 }
 
+i:hover:not(.active) {
+    color: #FFF;
+}
+
+/*Images*/
+
+figure {
+display: inline-block;
+margin: -20px;
+}
+
+.examples {
+    display: inline-block;
+    width: 80%;
+    padding: 20px;
+    margin-top: 80px;
+
+}
+
+
+
+/*
+.port div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+*/
+
+
+.bedfords a {
+  color: #FFF;
+}
+
+/*
+.bedfords {
+  float: centre;
+   margin-right: 100px; 
+  margin-left: 50px;
+}
+*/
+
+.hannah a {
+  color: #FFF;
+}
 
